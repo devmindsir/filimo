@@ -1,0 +1,264 @@
+/* 
+!0-576px= Phone
+!576px-768px= Phone Landscape
+!768px-992px= Tablet Portrait
+!992px-1200px= Tablet Landscape
+!1200px - 1800px= Laptop
+!1800px > = Big Desktop
+*/
+
+/*!media----> width:1200px */
+@media only screen and (max-width: 75em) {
+  .silder__details-main {
+    width: 100%;
+    justify-content: center;
+  }
+  .silder__details-logo {
+    display: none;
+  }
+  .silder__details-bottom {
+    margin-top: 1.5rem;
+  }
+  .popular,
+  .movie__content-info,
+  .device,
+  .educations__content,
+  .freemovie,
+  .kids__content,
+  .cinema__content,
+  .comments,
+  .questions__content,
+  .details__content,
+  .header__content {
+    width: 90%;
+  }
+  .freemovie {
+    margin: 2.5rem auto;
+  }
+  .freemovie__content {
+    width: max-content;
+  }
+  .freemovie__content-item {
+    margin-left: 10px;
+  }
+  .footer__content-subitems {
+    display: flex;
+    gap: 1.5rem;
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    position: static;
+    box-shadow: none;
+    transform: none;
+    padding: 0;
+  }
+  .footer__content-link-social {
+    display: none;
+  }
+}
+
+/*!media----> width:992px */
+@media only screen and (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+
+  .device {
+    margin: 4rem auto;
+  }
+  .comments__content-description-text {
+    line-height: 2.3rem;
+  }
+}
+
+/*!media----> width:768px */
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 47.5%;
+  }
+  .silder__details-title--white {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .popular__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .device {
+    flex-direction: column;
+  }
+  .device__picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .device__picture-img {
+    max-width: 70%;
+  }
+  .device__content {
+    width: 100%;
+  }
+  .educations__bg {
+    display: none;
+  }
+  .educations__content-items {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .educations {
+    padding: 2rem 1rem;
+  }
+  .educations__content-subtitle {
+    -webkit-line-clamp: 2;
+  }
+  .freemovie__content {
+    width: min-content;
+  }
+  .kids__content-image-pic {
+    width: 34rem;
+  }
+  .kids__content-description {
+    width: 100%;
+    text-align: justify;
+  }
+  .cinema__content {
+    padding: 0;
+  }
+  .cinema__head-items {
+    display: none;
+  }
+  .comments__content {
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+  }
+  .comments__content-item {
+    width: 45%;
+  }
+  .details__content-items {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer__content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .header__content-right {
+    display: none;
+  }
+  .header__content-hamburger {
+    display: flex;
+  }
+
+  .header__content-right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151515;
+    position: fixed;
+    right: -100rem;
+    top: 0;
+    border-left: 1px solid #fff;
+    box-shadow: -5px 0 10px rgba(255, 255, 255, 0.3);
+    padding: 8rem 5rem;
+  }
+  .header__content-link {
+    width: 100%;
+  }
+  .header__content-image {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  .header__content--line {
+    height: 1rem;
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .header__content-item {
+    height: auto;
+    width: 100%;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .header__item-text {
+    font-size: 2.5rem;
+  }
+  .header__item-icon {
+    font-size: 2.5rem;
+  }
+  .header__item-close {
+    display: flex;
+  }
+}
+
+/*!media----> width:576px */
+@media only screen and (max-width: 36em) {
+  .silder__details-items,
+  .silder__details-btn,
+  .movie__content-description-logo,
+  .header__left-basket,
+  .header__left-signin {
+    display: none;
+  }
+  .silder__details-content {
+    justify-content: flex-end;
+  }
+  .movie__content-items {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .movie__content-film {
+    width: 20rem;
+  }
+  .movie__bg {
+    background: none;
+  }
+  .kids__content-image {
+    display: none;
+  }
+  .kids__content {
+    padding: 2.5rem 0;
+  }
+  .kids__content-items {
+    width: 100%;
+  }
+  .cinema__item {
+    width: 100%;
+  }
+  .cinema__item-image {
+    width: 38%;
+  }
+  .cinema__item-content {
+    width: 62%;
+  }
+  .cinema__item-buy {
+    width: 100%;
+  }
+  .comments__content-item {
+    width: 100%;
+  }
+  .footer__content-right {
+    gap: 0.5rem;
+  }
+  .header__content-left-icon {
+    display: block;
+  }
+  .header__content-left {
+    justify-content: flex-end;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .header__content-right {
+    width: 80vw;
+  }
+}
